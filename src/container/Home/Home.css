@@ -1,0 +1,22 @@
+.appTitle {
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+  margin: 0.5rem;
+  color: rgb(247, 39, 67);
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px rgb(43, 41, 41);
+}
+
+.home {
+  background-image: url("../../assets/alien.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 90vh;
+  margin-bottom: 0rem;
+  height: 100vh;
+}
+@media (min-height: 780px) {
+  .appTitle {
+    margin-bottom: 4rem;
+  }
+}

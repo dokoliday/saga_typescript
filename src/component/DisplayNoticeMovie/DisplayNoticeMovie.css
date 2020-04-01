@@ -1,0 +1,19 @@
+.title {
+  font-size: 3rem;
+  color: rgb(173, 16, 16);
+  text-shadow: black 1px 2px 2px;
+  margin: auto;
+}
+.poster {
+  width: 25vw;
+  height: 65vh;
+}
+.resume {
+  margin: 4rem;
+}
+.video {
+  margin: 2rem;
+}
+.displayNoticeMovie {
+  margin: 4rem;
+}

@@ -1,0 +1,19 @@
+.pNav {
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+  font-size: 1em;
+  margin: 1em;
+  color: rgb(247, 39, 67);
+  text-shadow: 1px 1px 1px rgb(43, 41, 41);
+}
+.titleNav {
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(190, 7, 31);
+  text-shadow: 1px 1px 1px rgb(43, 41, 41);
+  margin: 0em;
+}
+a {
+  text-decoration: none !important;
+}

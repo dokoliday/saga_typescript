@@ -1,0 +1,54 @@
+.carousel {
+  background-color: rgba(17, 14, 14, 0.5);
+  border: solid black 0.5px;
+}
+.descriptionCarousel {
+  text-align: center;
+  background-color: rgba(8, 8, 8, 0.5);
+}
+.title {
+  font-family: "Black Ops One", cursive;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(43, 41, 41);
+}
+.carouselItem {
+  border: none;
+  background-color: rgba(17, 14, 14, 0);
+}
+.poster {
+  height: 40vh;
+  width: 40vw;
+}
+.date {
+  font-family: "Black Ops One", cursive;
+  font-size: 1em;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(43, 41, 41);
+}
+@media (min-width: 760px) {
+  .descriptionCarousel {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1em;
+    text-align: start;
+  }
+}
+@media (min-width: 1025px) {
+  .descriptionCarousel {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1em;
+    text-align: start;
+  }
+  .poster {
+    height: 65vh;
+    width: 30vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+  }
+  img {
+    box-shadow: 7px 7px 3px rgb(43, 41, 41);
+  }
+}
